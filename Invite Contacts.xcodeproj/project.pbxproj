@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965B9E2219A6F11900D4434D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2119A6F11900D4434D /* Foundation.framework */; };
+		965B9E2419A6F11900D4434D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2319A6F11900D4434D /* CoreGraphics.framework */; };
+		965B9E2619A6F11900D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2519A6F11900D4434D /* UIKit.framework */; };
+		965B9E2C19A6F11900D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E2A19A6F11900D4434D /* InfoPlist.strings */; };
+		965B9E2E19A6F11900D4434D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E2D19A6F11900D4434D /* main.m */; };
+		965B9E3219A6F11900D4434D /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E3119A6F11900D4434D /* ICAppDelegate.m */; };
+		965B9E3519A6F11900D4434D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E3319A6F11900D4434D /* Main.storyboard */; };
+		965B9E3819A6F11900D4434D /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E3719A6F11900D4434D /* ICViewController.m */; };
+		965B9E3A19A6F11900D4434D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E3919A6F11900D4434D /* Images.xcassets */; };
+		965B9E4119A6F11900D4434D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E4019A6F11900D4434D /* XCTest.framework */; };
+		965B9E4219A6F11900D4434D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2119A6F11900D4434D /* Foundation.framework */; };
+		965B9E4319A6F11900D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2519A6F11900D4434D /* UIKit.framework */; };
+		965B9E4B19A6F11900D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E4919A6F11900D4434D /* InfoPlist.strings */; };
+		965B9E4D19A6F11900D4434D /* Invite_ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E4C19A6F11900D4434D /* Invite_ContactsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		965B9E4419A6F11900D4434D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965B9E1619A6F11900D4434D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965B9E1D19A6F11900D4434D;
+			remoteInfo = "Invite Contacts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		965B9E1E19A6F11900D4434D /* Invite Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Invite Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B9E2119A6F11900D4434D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		965B9E2319A6F11900D4434D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		965B9E2519A6F11900D4434D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		965B9E2919A6F11900D4434D /* Invite Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Invite Contacts-Info.plist"; sourceTree = "<group>"; };
+		965B9E2B19A6F11900D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		965B9E2D19A6F11900D4434D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		965B9E2F19A6F11900D4434D /* Invite Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Invite Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		965B9E3019A6F11900D4434D /* ICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		965B9E3119A6F11900D4434D /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
+		965B9E3419A6F11900D4434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		965B9E3619A6F11900D4434D /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
+		965B9E3719A6F11900D4434D /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
+		965B9E3919A6F11900D4434D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		965B9E3F19A6F11900D4434D /* Invite ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Invite ContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B9E4019A6F11900D4434D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		965B9E4819A6F11900D4434D /* Invite ContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Invite ContactsTests-Info.plist"; sourceTree = "<group>"; };
+		965B9E4A19A6F11900D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		965B9E4C19A6F11900D4434D /* Invite_ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invite_ContactsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965B9E1B19A6F11900D4434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E2419A6F11900D4434D /* CoreGraphics.framework in Frameworks */,
+				965B9E2619A6F11900D4434D /* UIKit.framework in Frameworks */,
+				965B9E2219A6F11900D4434D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9E3C19A6F11900D4434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E4119A6F11900D4434D /* XCTest.framework in Frameworks */,
+				965B9E4319A6F11900D4434D /* UIKit.framework in Frameworks */,
+				965B9E4219A6F11900D4434D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965B9E1519A6F11900D4434D = {
+			isa = PBXGroup;
+			children = (
+				965B9E2719A6F11900D4434D /* Invite Contacts */,
+				965B9E4619A6F11900D4434D /* Invite ContactsTests */,
+				965B9E2019A6F11900D4434D /* Frameworks */,
+				965B9E1F19A6F11900D4434D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965B9E1F19A6F11900D4434D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E1E19A6F11900D4434D /* Invite Contacts.app */,
+				965B9E3F19A6F11900D4434D /* Invite ContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965B9E2019A6F11900D4434D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E2119A6F11900D4434D /* Foundation.framework */,
+				965B9E2319A6F11900D4434D /* CoreGraphics.framework */,
+				965B9E2519A6F11900D4434D /* UIKit.framework */,
+				965B9E4019A6F11900D4434D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		965B9E2719A6F11900D4434D /* Invite Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E3019A6F11900D4434D /* ICAppDelegate.h */,
+				965B9E3119A6F11900D4434D /* ICAppDelegate.m */,
+				965B9E3319A6F11900D4434D /* Main.storyboard */,
+				965B9E3619A6F11900D4434D /* ICViewController.h */,
+				965B9E3719A6F11900D4434D /* ICViewController.m */,
+				965B9E3919A6F11900D4434D /* Images.xcassets */,
+				965B9E2819A6F11900D4434D /* Supporting Files */,
+			);
+			path = "Invite Contacts";
+			sourceTree = "<group>";
+		};
+		965B9E2819A6F11900D4434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E2919A6F11900D4434D /* Invite Contacts-Info.plist */,
+				965B9E2A19A6F11900D4434D /* InfoPlist.strings */,
+				965B9E2D19A6F11900D4434D /* main.m */,
+				965B9E2F19A6F11900D4434D /* Invite Contacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		965B9E4619A6F11900D4434D /* Invite ContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E4C19A6F11900D4434D /* Invite_ContactsTests.m */,
+				965B9E4719A6F11900D4434D /* Supporting Files */,
+			);
+			path = "Invite ContactsTests";
+			sourceTree = "<group>";
+		};
+		965B9E4719A6F11900D4434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E4819A6F11900D4434D /* Invite ContactsTests-Info.plist */,
+				965B9E4919A6F11900D4434D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965B9E1D19A6F11900D4434D /* Invite Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B9E5019A6F11900D4434D /* Build configuration list for PBXNativeTarget "Invite Contacts" */;
+			buildPhases = (
+				965B9E1A19A6F11900D4434D /* Sources */,
+				965B9E1B19A6F11900D4434D /* Frameworks */,
+				965B9E1C19A6F11900D4434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Invite Contacts";
+			productName = "Invite Contacts";
+			productReference = 965B9E1E19A6F11900D4434D /* Invite Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965B9E3E19A6F11900D4434D /* Invite ContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B9E5319A6F11900D4434D /* Build configuration list for PBXNativeTarget "Invite ContactsTests" */;
+			buildPhases = (
+				965B9E3B19A6F11900D4434D /* Sources */,
+				965B9E3C19A6F11900D4434D /* Frameworks */,
+				965B9E3D19A6F11900D4434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				965B9E4519A6F11900D4434D /* PBXTargetDependency */,
+			);
+			name = "Invite ContactsTests";
+			productName = "Invite ContactsTests";
+			productReference = 965B9E3F19A6F11900D4434D /* Invite ContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965B9E1619A6F11900D4434D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Savana;
+				TargetAttributes = {
+					965B9E3E19A6F11900D4434D = {
+						TestTargetID = 965B9E1D19A6F11900D4434D;
+					};
+				};
+			};
+			buildConfigurationList = 965B9E1919A6F11900D4434D /* Build configuration list for PBXProject "Invite Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965B9E1519A6F11900D4434D;
+			productRefGroup = 965B9E1F19A6F11900D4434D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965B9E1D19A6F11900D4434D /* Invite Contacts */,
+				965B9E3E19A6F11900D4434D /* Invite ContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965B9E1C19A6F11900D4434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E3A19A6F11900D4434D /* Images.xcassets in Resources */,
+				965B9E2C19A6F11900D4434D /* InfoPlist.strings in Resources */,
+				965B9E3519A6F11900D4434D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9E3D19A6F11900D4434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E4B19A6F11900D4434D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965B9E1A19A6F11900D4434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E3219A6F11900D4434D /* ICAppDelegate.m in Sources */,
+				965B9E2E19A6F11900D4434D /* main.m in Sources */,
+				965B9E3819A6F11900D4434D /* ICViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9E3B19A6F11900D4434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E4D19A6F11900D4434D /* Invite_ContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		965B9E4519A6F11900D4434D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965B9E1D19A6F11900D4434D /* Invite Contacts */;
+			targetProxy = 965B9E4419A6F11900D4434D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		965B9E2A19A6F11900D4434D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9E2B19A6F11900D4434D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		965B9E3319A6F11900D4434D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9E3419A6F11900D4434D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		965B9E4919A6F11900D4434D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9E4A19A6F11900D4434D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965B9E4E19A6F11900D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		965B9E4F19A6F11900D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965B9E5119A6F11900D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Invite Contacts/Invite Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Invite Contacts/Invite Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		965B9E5219A6F11900D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Invite Contacts/Invite Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Invite Contacts/Invite Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		965B9E5419A6F11900D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Invite Contacts.app/Invite Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Invite Contacts/Invite Contacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Invite ContactsTests/Invite ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		965B9E5519A6F11900D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Invite Contacts.app/Invite Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Invite Contacts/Invite Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Invite ContactsTests/Invite ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965B9E1919A6F11900D4434D /* Build configuration list for PBXProject "Invite Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E4E19A6F11900D4434D /* Debug */,
+				965B9E4F19A6F11900D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965B9E5019A6F11900D4434D /* Build configuration list for PBXNativeTarget "Invite Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E5119A6F11900D4434D /* Debug */,
+				965B9E5219A6F11900D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		965B9E5319A6F11900D4434D /* Build configuration list for PBXNativeTarget "Invite ContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E5419A6F11900D4434D /* Debug */,
+				965B9E5519A6F11900D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965B9E1619A6F11900D4434D /* Project object */;
+}
