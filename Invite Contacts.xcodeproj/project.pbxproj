@@ -21,6 +21,10 @@
 		965B9E4319A6F11900D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E2519A6F11900D4434D /* UIKit.framework */; };
 		965B9E4B19A6F11900D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E4919A6F11900D4434D /* InfoPlist.strings */; };
 		965B9E4D19A6F11900D4434D /* Invite_ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E4C19A6F11900D4434D /* Invite_ContactsTests.m */; };
+		965B9E5B19A709AE00D4434D /* ICContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E5A19A709AE00D4434D /* ICContact.m */; };
+		965B9E5D19A709E700D4434D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E5C19A709E700D4434D /* AddressBook.framework */; };
+		965B9E5F19A709ED00D4434D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E5E19A709ED00D4434D /* MessageUI.framework */; };
+		965B9E6219A713E900D4434D /* ICContactImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E6119A713E900D4434D /* ICContactImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		965B9E4819A6F11900D4434D /* Invite ContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Invite ContactsTests-Info.plist"; sourceTree = "<group>"; };
 		965B9E4A19A6F11900D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		965B9E4C19A6F11900D4434D /* Invite_ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invite_ContactsTests.m; sourceTree = "<group>"; };
+		965B9E5919A709AD00D4434D /* ICContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICContact.h; sourceTree = "<group>"; };
+		965B9E5A19A709AE00D4434D /* ICContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICContact.m; sourceTree = "<group>"; };
+		965B9E5C19A709E700D4434D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		965B9E5E19A709ED00D4434D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		965B9E6019A713E900D4434D /* ICContactImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICContactImage.h; sourceTree = "<group>"; };
+		965B9E6119A713E900D4434D /* ICContactImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICContactImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965B9E5F19A709ED00D4434D /* MessageUI.framework in Frameworks */,
+				965B9E5D19A709E700D4434D /* AddressBook.framework in Frameworks */,
 				965B9E2419A6F11900D4434D /* CoreGraphics.framework in Frameworks */,
 				965B9E2619A6F11900D4434D /* UIKit.framework in Frameworks */,
 				965B9E2219A6F11900D4434D /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		965B9E2019A6F11900D4434D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				965B9E5E19A709ED00D4434D /* MessageUI.framework */,
+				965B9E5C19A709E700D4434D /* AddressBook.framework */,
 				965B9E2119A6F11900D4434D /* Foundation.framework */,
 				965B9E2319A6F11900D4434D /* CoreGraphics.framework */,
 				965B9E2519A6F11900D4434D /* UIKit.framework */,
@@ -115,6 +129,10 @@
 				965B9E3019A6F11900D4434D /* ICAppDelegate.h */,
 				965B9E3119A6F11900D4434D /* ICAppDelegate.m */,
 				965B9E3319A6F11900D4434D /* Main.storyboard */,
+				965B9E5919A709AD00D4434D /* ICContact.h */,
+				965B9E5A19A709AE00D4434D /* ICContact.m */,
+				965B9E6019A713E900D4434D /* ICContactImage.h */,
+				965B9E6119A713E900D4434D /* ICContactImage.m */,
 				965B9E3619A6F11900D4434D /* ICViewController.h */,
 				965B9E3719A6F11900D4434D /* ICViewController.m */,
 				965B9E3919A6F11900D4434D /* Images.xcassets */,
@@ -251,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				965B9E3219A6F11900D4434D /* ICAppDelegate.m in Sources */,
+				965B9E5B19A709AE00D4434D /* ICContact.m in Sources */,
 				965B9E2E19A6F11900D4434D /* main.m in Sources */,
+				965B9E6219A713E900D4434D /* ICContactImage.m in Sources */,
 				965B9E3819A6F11900D4434D /* ICViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

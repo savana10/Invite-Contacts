@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBook/AddressBook.h>
+#import <MessageUI/MessageUI.h>
 
-@interface ICViewController : UIViewController
+#import "ICContact.h"
+#import "ICContactImage.h"
+
+
+@interface ICViewController : UIViewController<UIAlertViewDelegate,UITableViewDelegate,UITableViewDataSource,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate>
+@property (strong,nonatomic) UITableView *contactsTableView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *inviteButton;
+@property (weak, nonatomic) IBOutlet UIToolbar *bottomToolBar;
 
 @end
