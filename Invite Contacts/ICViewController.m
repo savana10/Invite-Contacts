@@ -251,8 +251,9 @@ BOOL message;
     [mvc setRecipients:selecNumbers];
     [mvc setBody:@"This is a invite message"];
     [mvc setMessageComposeDelegate:self];
-    
+    if(mvc){
     [self presentViewController:mvc animated:true completion:nil];
+    }
 }
 #pragma mark Message Delegate
 - (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result
