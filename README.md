@@ -1,5 +1,8 @@
 Invite-Contacts
 ===============
+####Master branch build status: 
+![](https://travis-ci.org/savana10/Invite-Contacts/?branch=master)
+
 
 Send invite requests to single/multiple contact/s
 
